@@ -1,64 +1,76 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-<link href="css/index.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume</title>
+	<!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- Compiled and minified CSS -->
+  	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 
+      <!-- Compiled and minified JavaScript -->
+  	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  	 <link href="css/index.css" rel="stylesheet">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
 <body>
-<header>
-<nav>
-	<ul>
-		<li>Follow</li>
-		<li>Portfolio</li>
-	</ul>
-</nav>
-</header>
-<section>
+<div class="navbar-fixed" >
+  <nav style="background-color:grey">
+    <div class="nav-wrapper">
+      <!-- <a href="#" class="center brand-logo">Portfolio</a> -->
+      <h4 class="center-align">Portfolio</h4>
+    </div>
+  </nav>
+</div>
+  <main>
+  <div class="container center-align" style="padding-top:100px">
+      <img class= "circle responsive-img" src="images/me.jpg" style="height:35vh;width:35vh">
+        <p style="font-family:Times New Roman, Times, serif; font-size: 7vh"><b>Hardik Nangia</b></p>
+        <p style="font-family: Georgia, Times,Times New Roman, serif;font-size:5vh">Engineering Student</p>
+        
+        <p style="font-family:Times New Roman, Times, serif; font-size: 7vh; padding-top: 5vh"><b>Education</b></p>
+        <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+        
+        <p style="font-family:Times New Roman, Times, serif; font-size: 6vh;"><b>High School</b></p>
+        <p style="font-family: Georgia, Times,Times New Roman, serif;font-size:5vh">
+          Ryan International School,Rohini<br></p>
+        
+        <p style="font-family:Times New Roman, Times, serif; font-size: 6vh;"><b>B-Tech</b></p>
+        <p style="font-family: Georgia, Times,Times New Roman, serif;font-size:5vh">
+          Bharatiya Vidyapeeth College Of Engineering
+        </p>
 
-	<ul>
-	<li><img src="images/me.jpg"></li>	
-	<li><h3> Hardik Nangia</h3></li>
-	<li>Engineering Student</li>
-	</ul>
+        <p style="font-family:Times New Roman, Times, serif; font-size: 7vh; padding-top: 5vh"><b>Technical Skill</b></p>
+        <i class="fa fa-info-circle fa-5x" aria-hidden="true" style="text-align: center"></i>
+        
+        <p style="font-family:Times New Roman, Times, serif; font-size: 6vh;"><b>Languages</b></p>
+        <p style="font-family: Georgia, Times,Times New Roman, serif;font-size:5vh">C++,C,Ruby,Javascript<br>HTML,CSS</p>
+        
+        <p style="font-family:Times New Roman, Times, serif; font-size: 6vh;"><b>Framework</b></p>
+        <p style="font-family: Georgia, Times,Times New Roman, serif;font-size:5vh">Sinatra,Rails</p>
+        
+        <p style="font-family:Times New Roman, Times, serif; font-size: 6vh;"><b>Tools</b></p>
+        <p style="font-family: Georgia, Times,Times New Roman, serif;font-size:5vh">RubyMine,Sublime Text</p>
 
-	<div class="info">
-	<ul>
-       <li><h1>Portfolio</h1></li>
-
-       <li><i class="fa fa-info-circle fa-5x" aria-hidden="true" style="text-align: center"></i></li>
-       <li><h3>Languages</h3></li>
-       <li><p> C++,C,Ruby,Java,Python<br>Javascript,HTML,CSS</p></li>
-       <li><h3>Framework</h3></li>
-       <li><p>Sinatra,Rails</li>
-       <li><h3>Tools</h3></li>
-       <li><p>RubyMine,Sublime Text,</p></p>
-       </ul>
-	</div>
-
-	<div class="project">
-		<ul>
-		<li><i class="fa fa-folder fa-5x" aria-hidden="true"></i></li>
-		<li><p>You can find my projects on Github.<br>My Github Handle is Harry30897</p></li>
-		</ul>
-
-	</div>
-</section>
+        <i class="fa fa-folder fa-5x" aria-hidden="true" style="padding-top:5vh;"></i>
+        <p style="font-family: Georgia, Times,Times New Roman, serif;font-size:5vh">You can find my projects on Github.<br>My Github Handle is Harry30897</p>
 
 
-<footer>
-<ul>
-<li><a href="https://www.facebook.com/hardik.nangia"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></li>
-<li><a href="https://github.com/Harry30897"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
-<li><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></li>
-</ul>
-	
-</footer>
-	
+  </div>
+  </main> 
+  <footer class="page-footer" style="background-color:grey;height:20vh;padding-top:5vh;">
+    <div class="row valign-wrapper">
+    <div class="col s4 center-align"><a href="https://www.facebook.com/hardik.nangia" style="color: black"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></div>
+      <div class="col s4 center-align"><a href="https://github.com/Harry30897" style="color: black"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></div>
+      <div class="col s4 center-align"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></div>
+    </div>
+   
+  </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
-</html>
+</html>	
